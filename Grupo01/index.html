@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamarindo Sweet</title>
+    <link rel="icon" href="favicon/Logo responsive.png" type="logo" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="top-header-content">
+          <div class="contact-links">
+            <span class="contact-item">
+              <i class="fas fa-envelope"></i> alexaizquicumpa@gmail.com
+            </span>
+            <span class="contact-item">
+              <i class="fas fa-phone"></i> +51 968 304 883
+            </span>
+          </div>
+
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/tamarindos_sweet"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://web.facebook.com/people/Pasteler%C3%ADa-Tamarindos-Sweet/100028871574963/?locale=es_LA&_rdc=1&_rdr#"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a
+              href="https://api.whatsapp.com/send/?phone=51968304983&text=%C2%A1Hola%21+Me+interesa+Tamarindo+Sweet&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+                            <div class="nav-container">
+                            <div class="logo-section">            <a href="index.html">
+              <img src="Logo/Logotipo.png" alt="Tamarindo Sweet Logo" />
+            </a>
+          </div>
+
+          <div class="nav-center">
+            <div class="search-bar">
+              <input type="text" placeholder="Que te provoca hoy ..." />
+              <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <ul class="nav-menu">
+              <li>
+                <a href="index.html" class="active">
+                  <img src="icon/Inicio.jpg" alt="" class="nav-icon" /> INICIO
+                </a>
+              </li>
+              <li>
+                <a href="seccion nosotros/nosotros.html">
+                  <img src="icon/Nosotros.jpg" alt="" class="nav-icon" />
+                  NOSOTROS
+                </a>
+              </li>
+              <li>
+                <a href="seccion productos/productos.html">
+                  <img src="icon/Productos.jpg" alt="" class="nav-icon" />
+                  PRODUCTOS
+                </a>
+              </li>
+              <li>
+                <a href="seccion galeria/galeria.html">
+                  <img src="icon/Galería.jpg" alt="" class="nav-icon" /> GALERÍA
+                </a>
+              </li>
+              <li>
+                <a
+                  href="seccion pedidos-personalizados/pedidos-personalizados.html"
+                >
+                  <img src="icon/Personalizados.jpg" alt="" class="nav-icon" />
+                  PEDIDOS PERSONALIZADOS
+                </a>
+              </li>
+              <li>
+                <a href="seccion contacto/contacto.html">
+                  <img src="icon/Contactanos.jpg" alt="" class="nav-icon" />
+                  CONTÁCTANOS
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="order-section">
+            <a
+              href="https://api.whatsapp.com/send/?phone=51968304983&text=%C2%A1Hola%21+Me+interesa+Tamarindo+Sweet&type=phone_number&app_absent=0"
+              class="btn-ordenar-wa"
+              target="_blank"
+            >
+              ORDENAR PEDIDO <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-carousel">
+      <input type="radio" name="slider" id="img1" checked />
+      <input type="radio" name="slider" id="img2" />
+      <input type="radio" name="slider" id="img3" />
+      <input type="radio" name="slider" id="img4" />
+      <input type="radio" name="slider" id="img5" />
+      <input type="radio" name="slider" id="img6" />
+
+      <div class="slides">
+        <div
+          class="slide s1"
+          style="background-image: url('Imagenes/Brownies_Navideños.png')"
+        ></div>
+        <div
+          class="slide s2"
+          style="background-image: url('Imagenes/Imagen2.jpg')"
+        ></div>
+        <div
+          class="slide s3"
+          style="background-image: url('Imagenes/Imagen3.jpg')"
+        ></div>
+        <div
+          class="slide s4"
+          style="background-image: url('Imagenes/Imagen4.jpg')"
+        ></div>
+        <div
+          class="slide s5"
+          style="background-image: url('Imagenes/Imagen5.jpg')"
+        ></div>
+        <div
+          class="slide s6"
+          style="background-image: url('Imagenes/imagen6.jpg')"
+        ></div>
+      </div>
+
+      <div class="arrows">
+        <label for="img6" class="arrow prev p1">&#10094;</label>
+        <label for="img2" class="arrow next n1">&#10095;</label>
+
+        <label for="img1" class="arrow prev p2">&#10094;</label>
+        <label for="img3" class="arrow next n2">&#10095;</label>
+
+        <label for="img2" class="arrow prev p3">&#10094;</label>
+        <label for="img4" class="arrow next n3">&#10095;</label>
+
+        <label for="img3" class="arrow prev p4">&#10094;</label>
+        <label for="img5" class="arrow next n4">&#10095;</label>
+
+        <label for="img4" class="arrow prev p5">&#10094;</label>
+        <label for="img6" class="arrow next n5">&#10095;</label>
+
+        <label for="img5" class="arrow prev p6">&#10094;</label>
+        <label for="img1" class="arrow next n6">&#10095;</label>
+      </div>
+
+      <div class="hero-content">
+        <h1>
+          DULZURA SIN LÍMITES, <br />
+          NI CULPAS
+        </h1>
+        <p>Disfruta de las mejores tortas con ingredientes de calidad</p>
+        <a href="seccion galeria/galeria.html" class="btn-ver-mas-referencia">VER MÁS</a>  
+      </div>
+
+      <div class="dots">
+        <label for="img1" class="dot d1"></label>
+        <label for="img2" class="dot d2"></label>
+        <label for="img3" class="dot d3"></label>
+        <label for="img4" class="dot d4"></label>
+        <label for="img5" class="dot d5"></label>
+        <label for="img6" class="dot d6"></label>
+      </div>
+    </section>
+
+    <section class="most-ordered">
+      <div class="container-ordered">
+        <div class="ordered-header">
+          <h2>LOS MÁS PEDIDOS</h2>
+          <p>
+            Al igual que tú, estos son los favoritos de nuestra comunidad.
+            <br />
+            Hechos con amor y los mejores ingredientes artesanales.
+          </p>
+        </div>
+
+        <div class="ordered-grid">
+          <div class="card">
+            <div class="card-img">
+              <img src="Imagenes/Tres-Leches.jpg" alt="Torta tres leches" />
+            </div>
+            <div class="card-info">
+              <h3>TORTA TRES LECHES</h3>
+              <p class="price">S/ 25.00</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="Imagenes/Red-Velvet (1).jpg" alt="Red Velvet" />
+            </div>
+            <div class="card-info">
+              <h3>RED VELVET</h3>
+              <p class="price">S/ 30.00</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img src="Imagenes/cheesecake.jpg" alt="Cheesecake" />
+            </div>
+            <div class="card-info">
+              <h3>CHEESECAKE DE FRUTOS</h3>
+              <p class="price">S/ 28.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ordered-footer">
+          <a href="seccion productos/productos.html" class="btn-ver-mas-dark"
+            >VER MÁS</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="separa-fecha-seccion">
+      <div class="booking-wrapper">
+        <div class="calendar-card">
+          <div class="calendar-header">
+            <i class="fas fa-chevron-left"></i>
+            <span>DICIEMBRE 2025</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="calendar-days-tags">
+            <span>DO</span><span>LU</span><span>MA</span><span>MI</span
+            ><span>JU</span><span>VI</span><span>SA</span>
+          </div>
+          <div class="calendar-grid">
+            <span class="day prev-month">30</span>
+            <span class="day">1</span><span class="day">2</span
+            ><span class="day">3</span><span class="day">4</span
+            ><span class="day">5</span><span class="day">6</span>
+            <span class="day">7</span><span class="day">8</span
+            ><span class="day">9</span><span class="day">10</span
+            ><span class="day">11</span><span class="day">12</span
+            ><span class="day">13</span> <span class="day">14</span
+            ><span class="day">15</span><span class="day">16</span
+            ><span class="day">17</span><span class="day">18</span
+            ><span class="day">19</span><span class="day">20</span>
+            <span class="day">21</span><span class="day">22</span
+            ><span class="day">23</span><span class="day">24</span
+            ><span class="day today">25</span><span class="day">26</span
+            ><span class="day">27</span> <span class="day">28</span
+            ><span class="day">29</span><span class="day">30</span
+            ><span class="day">31</span>
+          </div>
+        </div>
+
+        <div class="booking-info">
+          <p class="subtitle">Personaliza tu torta</p>
+          <h2 class="main-title">
+            ¡Separa tu <br />
+            fecha ya!
+          </h2>
+          <a
+            href="https://api.whatsapp.com/send/?phone=51968304983&text=%C2%A1Hola%21+Me+interesa+Tamarindo+Sweet&type=phone_number&app_absent=0"
+            target="_blank"
+            class="btn-pedir-wa"
+          >
+            PEDIR POR WHATSAPP <i class="fab fa-whatsapp"></i>
+          </a>
+          <p class="footer-note">Selecciona el día en el calendario</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <h2 class="reviews-title">Reseñas de clientes</h2>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="review-avatar">
+            <img src="Avatars (Clientes)/Carlos.jpg" alt="Carlos Medina" />
+          </div>
+          <h3 class="client-name">Carlos Medina</h3>
+          <p class="review-role">Pastel personalizado</p>
+          <div class="review-stars">★★★★★★</div>
+          <p class="review-text">
+            Encargué un pastel personalizado y no solo fue una obra de arte,
+            también estaba delicioso.
+          </p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-avatar">
+            <img src="Avatars (Clientes)/Maria.jpg" alt="María López" />
+          </div>
+          <h3 class="client-name">María López</h3>
+          <p class="review-role">Torta Red Velvet</p>
+          <div class="review-stars">★★★★★★</div>
+          <p class="review-text">
+            La presentación fue impecable y el sabor increíble. ¡Siempre vuelvo
+            a pedir!
+          </p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-avatar">
+            <img src="Avatars (Clientes)/Juan.jpg" alt="Juan Pérez" />
+          </div>
+          <h3 class="client-name">Juan Pérez</h3>
+          <p class="review-role">Mesa de postres</p>
+          <div class="review-stars">★★★★★★</div>
+          <p class="review-text">
+            “Simplemente espectacular”. A todos en la fiesta les encantó la mesa
+            de postres.
+          </p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-avatar">
+            <img src="Avatars (Clientes)/Ana.jpg" alt="Ana Torres" />
+          </div>
+          <h3 class="client-name">Ana Torres</h3>
+          <p class="review-role">Pastel de bodas</p>
+          <div class="review-stars">★★★★★★</div>
+          <p class="review-text">
+            El pastel de boda fue perfecto, justo como lo imaginamos, tanto en
+            diseño como en sabor.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="idea-dulce">
+      <div class="idea-texto">
+        <h2>¿Tienes una idea dulce en mente?</h2>
+        <p>
+          Hazla realidad con nuestro servicio de pedidos personalizados.
+          Diseñamos tortas y postres únicos, hechos especialmente para ti y tus
+          celebraciones.
+        </p>
+        <a href="seccion pedidos-personalizados/pedidos-personalizados.html" class="btn-primario">Descubre cómo crear la tuya</a>
+      
+      </div>
+
+      <div class="idea-galeria">
+        <div class="idea-item">
+          <img src="Idea galeria/Imagen torta 1.jpg" alt="torta 1" />
+        </div>
+
+        <div class="idea-item">
+          <img src="Idea galeria/Imagen torta 2.jpg" alt="torta 2" />
+        </div>
+
+        <div class="idea-item">
+          <img src="Idea galeria/Imagen torta 3.jpg" alt="torta 3" />
+        </div>
+
+        <div class="idea-item">
+          <img src="Idea galeria/Imagen torta 4.jpg" alt="torta 4" />
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+    <div class="newsletter-content">
+        <h2>Suscríbete a nuestro boletín informativo</h2>
+        <p>
+            ¡Recibe las últimas novedades, lanzamientos y promociones de Tamarindo Sweet directamente en tu correo! 
+            Además, celebra tu cumpleaños con nosotros y obtén un 10 % de descuento compartiendo tu fecha especial.
+        </p>
+        
+        <form class="newsletter-form">
+            <div class="input-container">
+                <input type="email" placeholder="INGRESE SU DIRECCIÓN DE CORREO ELECTRÓNICO" required>
+                <button type="submit" class="btn-submit">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+    <a
+      href="https://api.whatsapp.com/send/?phone=51968304983&text=%C2%A1Hola%21+Me+interesa+Tamarindo+Sweet&type=phone_number&app_absent=0"
+      target="_blank"
+      style="text-decoration: none"
+    >
+      <div class="floating-tab">
+        <span>¿Tienes preguntas?</span>
+      </div>
+    </a>
+
+    <!-- FOOTER -->
+    
+    <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-column logo-col">
+            <img src="Logo/Logo responsive.png" alt="Tamarindo Sweet Logo" class="footer-logo">
+            <div class="libro-reclamaciones">
+                <a href="#">
+                    <img src="icon/libro solo.png" alt="Libro de Reclamaciones">
+                    <span>LIBRO DE RECLAMACIONES</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>CONTÁCTENOS</h3>
+            <ul class="footer-socials">
+                <li><a href="https://www.instagram.com/tamarindos_sweet" target= "_blank"><i class="fab fa-instagram"></i> @tamarindos_sweet</a></li>
+                <li><a href="https://web.facebook.com/people/Pasteler%C3%ADa-Tamarindos-Sweet/100028871574963/?locale=es_LA&_rdc=1&_rdr#" target="_blank"><i class="fab fa-facebook-f"></i> Pastelería Tamarindos Sweet</a></li>
+                <li><a href="#"><i class="fab fa-tiktok"></i> @tamarindos_sweet</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>CATEGORÍAS MÁS BUSCADAS</h3>
+            <ul class="footer-links">
+                <li><a href="#">Cumpleaños</a></li>
+                <li><a href="#">Bodas</a></li>
+                <li><a href="#">Personalizados</a></li>
+                <li><a href="#">Temáticos</a></li>
+            </ul>
+            <h3 class="mt-20">CENTRO DE AYUDA</h3>
+            <ul class="footer-links">
+                <li><a href="#">REEMBOLSOS Y DEVOLUCIONES</a></li>
+                <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+                <li><a href="#">CONDICIONES DE SERVICIO</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>¿Tienes alguna pregunta?</h3>
+            <p>Siempre estamos aquí para echar una mano.</p>
+            <p class="mt-20">El horario del equipo de atención al consumidor es de lunes a viernes, de 9 a. m. a 5 p. m.</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Tamarindo Sweet. All rights reserved.</p>
+        <div class="payment-methods">
+            <img src="Medios de Pago/BCP.png" alt="BCP">
+            <img src="Medios de Pago/Yape.png" alt="Yape">
+            <img src="Medios de Pago/Visa.png" alt="Visa">
+            <img src="Medios de Pago/Mastercard.png" alt="Mastercard">
+        </div>
+    </div>
+</footer>
+  </body>
+</html>
